@@ -26,7 +26,10 @@ Mit Github Anleitung pihole installiert
 
 https://github.com/pi-hole/pi-hole/#one-step-automated-install
 
-Installation mithilfe des Commands curl -sSL https://install.pi-hole.net | bash	
+Installation mithilfe des Commands curl 
+```
+-sSL https://install.pi-hole.net | bash
+```	
 
 PUTTY installiert für einfachere Ansicht auf Windows PC, IP Adresse des Pi zur Verbindung angegeben und und mit pi user eingeloggt
 
