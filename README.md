@@ -1,4 +1,7 @@
 # SYTPiHoleFuchs
+
+Alle benötigten Packaes am Ende
+
 Dokumentation zu meiner Installation von meinem PiHole
 
 Raspberry Pi Debian image auf Micro SD-card  geflashed
@@ -11,11 +14,13 @@ Diverse packages installiert (curl, sudo, setupcon, wget, etc.)
 
 Installationen wurden folgendermaßen durchgeführt
 
+```
 sudo apt-get update
 
 sudo apt-get install *Paketname, (zum Beispiel Console-setup)*
+```
 
-Tastatursprache wurde mit dem BEfehl setupcon geändert
+Tastatursprache wurde mit dem Befehl setupcon geändert
 
 neuen User (eric) mithilfe von adduser erstellt und ein Passwort ausgewählt
 
@@ -102,7 +107,8 @@ Mithilfe von WireShark eine VPN nach Hause eingerichtet damit auch unterwegs Wer
 
 
 
-Ergebnisse: Ca 3 Stunden nach der INstallation:
+
+Ergebnisse: Ca 3 Stunden nach der Installation:
 
 ![Bild5](https://user-images.githubusercontent.com/126173750/235849787-f97ccefa-0d30-48db-aaf9-a49e85c6e504.png)
 
@@ -114,3 +120,43 @@ Ergebnisse Ca. 3 Tage nach der Installation
 ![Bild7](https://user-images.githubusercontent.com/126173750/235849998-0974063a-a6ea-4cc8-b5a0-2b464e016755.jpg)
 
 Innerhalb der drei Tage ist ein Fehler passiert, bei dem eine Amazon URL unterdrückt wurde, die keine Werbung war.
+
+```
+sudo apt-get update
+sudo apt-get install wget
+```
+
+```
+sudo apt-get update
+sudo apt-get install curl
+```
+
+```
+su -
+apt-get update
+apt-get install sudo
+```
+
+```
+sudo apt-get update
+sudo apt-get install net-tools
+```
+
+```
+apt-get update
+apt-get install console-setup
+```
+
+```
+apt-get update
+apt-get install keyboard-configuration
+```
+Tastatur Einstellungen ändern
+```
+dpkg-reconfigure keyboard-configuration
+```
+
+Datei  mit Netzwerkkonfigurationen aufrufen
+```
+sudo nano /etc/network/interfaces.d/eth0
+````
