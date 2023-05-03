@@ -76,10 +76,6 @@ Pi hole mithilfe von GitHub Anleitung installiert
 
 folgenden Befehl zu Installation der Applikation verwendet
 
-curl -sSL https://install.pi-hole.net | bash
-
-curl not found
-
 sudo und curl packages installiert
 ```
 curl -sSL https://install.pi-hole.net | bash
@@ -122,6 +118,12 @@ Ergebnisse Ca. 3 Tage nach der Installation
 Innerhalb der drei Tage ist ein Fehler passiert, bei dem eine Amazon URL unterdrückt wurde, die keine Werbung war.
 
 ```
+su -
+apt-get update
+apt-get install sudo
+```
+
+```
 sudo apt-get update
 sudo apt-get install wget
 ```
@@ -131,11 +133,6 @@ sudo apt-get update
 sudo apt-get install curl
 ```
 
-```
-su -
-apt-get update
-apt-get install sudo
-```
 
 ```
 sudo apt-get update
