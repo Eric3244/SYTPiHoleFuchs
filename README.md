@@ -137,7 +137,7 @@ Tastatur Einstellungen ändern
 dpkg-reconfigure keyboard-configuration
 ```
 
-Datei  mit Netzwerkkonfigurationen aufrufen
+Datei  mit Netzwerkkonfigurationen aufrufen und bearbeiten
 ```
 sudo nano /etc/network/interfaces.d/eth0
 ````
