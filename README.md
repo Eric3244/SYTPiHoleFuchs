@@ -72,7 +72,7 @@ Mit Putty verbunden
 
 Pi hole mithilfe von GitHub Anleitung installiert
 
-![Github Installations Anleitung](https://github.com/pi-hole/pi-hole/#one-step-automated-install)
+[Github Installations Anleitung](https://github.com/pi-hole/pi-hole/#one-step-automated-install)
 
 folgenden Befehl zu Installation der Applikation verwendet
 
@@ -117,37 +117,16 @@ Ergebnisse Ca. 3 Tage nach der Installation
 
 Innerhalb der drei Tage ist ein Fehler passiert, bei dem eine Amazon URL unterdrückt wurde, die keine Werbung war.
 
+
+
+Folgende Packages werden benötigt, diese sollte man installieren
 ```
 su -
-apt-get update
-apt-get install sudo
+sudo apt update
+sudo apt upgrade
+sudo apt install sudo wget curl net-tools console-setup keyboard-configuration
 ```
 
-```
-sudo apt-get update
-sudo apt-get install wget
-```
-
-```
-sudo apt-get update
-sudo apt-get install curl
-```
-
-
-```
-sudo apt-get update
-sudo apt-get install net-tools
-```
-
-```
-apt-get update
-apt-get install console-setup
-```
-
-```
-apt-get update
-apt-get install keyboard-configuration
-```
 Tastatur Einstellungen ändern
 ```
 dpkg-reconfigure keyboard-configuration
