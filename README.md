@@ -17,7 +17,7 @@ Installationen wurden folgendermaßen durchgeführt
 ```
 sudo apt-get update
 
-sudo apt-get install *Paketname, (zum Beispiel Console-setup)*
+sudo apt-get install *Paketname*     (zum Beispiel Console-setup)
 ```
 
 Tastatursprache wurde mit dem Befehl setupcon geändert
@@ -84,15 +84,19 @@ static IP address muss definiert werden um mit der Installation fortzufahren
 
 
 
-IP Addresse mithilfe von vi so ändern, dass sie nicht vom Router vergeben wird
+IP Addresse mithilfe von nano so ändern, dass sie nicht vom Router vergeben wird
 
-Gateway richtigstellen
+folgenden Befehl verwendet damit Netzwerkdaten bearbeitet werden können
+
+```
+sudo nano /etc/network/interfaces.d/eth0
+```
 
 ![Bild4](https://user-images.githubusercontent.com/126173750/235849407-09c185df-d548-4e17-8e64-836b209feaca.png)
 
 Einstellungen konfiguriert und Installation abgeschlossen
 
-Admin Webpage login Passwort aufgeschreiben zum Abrufen der Webpage
+Admin Webpage login Passwort aufgeschreiben zum Abrufen der Webpage bei der man die Übersicht der Daten des Pi Hole sehen kann
 
 Beim Router den Raspberry Pi als DNS Server ausgewählt
 
