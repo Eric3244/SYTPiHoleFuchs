@@ -10,7 +10,7 @@ Karte in Pi eingesteckt und Installation begonnen
 
 Root Benutzer ausgewählt
 
-Diverse packages installiert (curl, sudo, setupcon, wget, etc.)
+Diverse packages installiert (curl, sudo, setupcon, wget, etc.), sie sind am Ende der Dokumentation aufgelistet und können einfach kopiert werden
 
 Installationen wurden folgendermaßen durchgeführt 
 
@@ -66,25 +66,25 @@ sudo apt-get install *Paketname, (zum Beispiel Console-setup)*
 
 und zum Schluss mit dem Befehl setupcon aktiviert
 
-Mit Putty verbunden
+Mit Putty verbunden für Remote-Desktop-Ansicht
 
 Pi hole mithilfe von GitHub Anleitung installiert
 
 [Github Installations Anleitung](https://github.com/pi-hole/pi-hole/#one-step-automated-install)
 
+static IP address muss definiert werden um mit der Installation fortzufahren
+
 folgenden Befehl zu Installation der Applikation verwendet
 
-sudo und curl packages installiert
 ```
 curl -sSL https://install.pi-hole.net | bash
 ```
-static IP address muss definiert werden um mit der Installation fortzufahren
 
 
 
 IP Addresse mithilfe von nano so ändern, dass sie nicht vom Router vergeben wird
 
-folgenden Befehl verwendet damit Netzwerkdaten bearbeitet werden können
+folgenden Befehl verwendet damit die Datei mit den Netzwerkdaten bearbeitet werden können
 
 ```
 sudo nano /etc/network/interfaces.d/eth0
@@ -94,13 +94,13 @@ sudo nano /etc/network/interfaces.d/eth0
 
 Einstellungen konfiguriert und Installation abgeschlossen
 
-Admin Webpage login Passwort aufgeschreiben zum Abrufen der Webpage bei der man die Übersicht der Daten des Pi Hole sehen kann
+Admin Webpage login Passwort aufgeschreiben zum Abrufen der Webpage bei der man die Übersicht der Daten des Pi Hole sehen kann *IP des Raspberry*/admin/
 
 Beim Router den Raspberry Pi als DNS Server ausgewählt
 
 FERTIG
 
-Mithilfe von WireShark eine VPN nach Hause eingerichtet damit auch unterwegs Werbung unterdrückt wird
+Mithilfe von WireShark eine VPN nach Hause eingerichtet damit auch unterwegs Werbung unterdrückt wird, da ich mit dem Heim-Netzwerk verbunden bin
 
 
 
