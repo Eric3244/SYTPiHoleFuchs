@@ -76,9 +76,9 @@ curl -sSL https://install.pi-hole.net | bash
 curl not found
 
 sudo und curl packages installiert
-
+```
 curl -sSL https://install.pi-hole.net | bash
-
+```
 static IP address muss definiert werden um mit der Installation fortzufahren
 
 
