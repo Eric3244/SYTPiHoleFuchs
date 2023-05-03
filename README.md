@@ -12,13 +12,11 @@ Root Benutzer ausgewählt
 
 Diverse packages installiert (curl, sudo, setupcon, wget, etc.)
 
-Installationen wurden folgendermaßen durchgeführt
+Installationen wurden folgendermaßen durchgeführt 
 
-```
 sudo apt-get update
 
 sudo apt-get install *Paketname*     (zum Beispiel Console-setup)
-```
 
 Tastatursprache wurde mit dem Befehl setupcon geändert
 
