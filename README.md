@@ -85,7 +85,7 @@ curl -sSL https://install.pi-hole.net | bash
 
 
 
-IP Addresse mithilfe von nano so ändern, dass sie nicht vom Router vergeben wird
+IP Addresse mithilfe von nano so ändern, dass sie nicht vom Router vergeben wird(statische Adresse zugeordnet)
 
 folgenden Befehl verwendet damit die Datei mit den Netzwerkdaten bearbeitet werden können
 
